@@ -1,0 +1,38 @@
+1. Inicio
+2. funcion principal()
+3. 	condicion, x(n)[{a-z}, {A-Z}, {BS}] <-- "seguir"
+4.	auto,  x(n)[{a-z}, {A-Z}, {BS}]
+5.	moto,  x(n)[{a-z}, {A-Z}, {BS}]
+6.	Mientras(condicion == "seguir")
+7.		auto = obtenerAuto()
+8.		Escribir auto
+9.		moto = obtenerMoto()
+10.		escribir moto
+11.		Escribir "Ingrese "seguir" para continuar ingresando datos"
+12.		leer condicion
+12.	FinMientras
+13. fin funcion principal
+
+14. funcion obtenerAuto() : x
+15.	año, x(n)[{a-z}, {A-Z}, {BS}]
+16.	marca, x(n)[{a-z}, {A-Z}, {BS}]
+17. 	cadena, x(n)[{a-z}, {A-Z}, {BS}]
+18.     Escribir "Escriba la marca del auto"
+19. 	leer marca
+20. 	Escribir "Escriba el año del auto"
+21. 	leer año 
+22.	cadena = "Auto marca " + marca + " con año de fabricación " + año.
+23.  	retorna cadena
+24. fin funcion obtenerAuto
+
+14. funcion obtenerMoto() : x
+15.	motor, x(n)[{a-z}, {A-Z}, {BS}]
+16.	asiento, x(n)[{a-z}, {A-Z}, {BS}]
+17. 	cadena, x(n)[{a-z}, {A-Z}, {BS}]
+18.     Escribir "Escriba el tipo de motor"
+19. 	leer motor
+20. 	Escribir "Ingrese el número de asientos"
+21. 	leer asiento
+22.	cadena = "Moto con motor " + motor + " y " + asiento "asientos".
+23.  	retorna cadena
+24. fin funcion obtenerMoto
